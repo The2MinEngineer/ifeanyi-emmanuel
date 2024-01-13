@@ -1,0 +1,31 @@
+{
+	"projects": [
+		{
+			"id": 1,
+			"title": "Sonora - A Music Steaming Web App",
+			"image": "/sonora.jpg",
+			"links": {
+				"github": "https://github.com/project1",
+				"website": "https://project1.com"
+			}
+		},
+		{
+			"id": 2,
+			"title": "City-Crib - An Airbnb Clone",
+			"image": "/citycrib.jpg",
+			"links": {
+				"github": "https://github.com/project2",
+				"website": "https://project2.com"
+			}
+		},
+		{
+			"id": 3,
+			"title": "GPT-3 Landing Page",
+			"image": "/landingpage.jpg",
+			"links": {
+				"github": "https://github.com/project3",
+				"website": "https://project3.com"
+			}
+		}
+	]
+}
