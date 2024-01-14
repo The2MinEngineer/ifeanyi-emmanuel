@@ -21,21 +21,21 @@ const Contact = () => {
 
 					<div className="flex items-center gap-[16px] mt-[14px]">
 						<Link
-							href="https://medium.com/"
+							href="https://www.linkedin.com/in/ifeanyi-emmanuel/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<RiLinkedinFill className="cursor-pointer text-2xl lg:text-3xl hover:text-[#3547EE] transition duration-300" />
 						</Link>
 						<Link
-							href="https://medium.com/"
+							href="https://github.com/the2MinEngineer"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<RiGithubFill className="cursor-pointer text-2xl lg:text-3xl hover:text-[#3547EE] transition duration-300" />
 						</Link>
 						<Link
-							href="https://medium.com/"
+							href="https://medium.com/@The2MinEngineer/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
