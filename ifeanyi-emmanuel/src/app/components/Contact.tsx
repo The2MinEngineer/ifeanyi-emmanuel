@@ -1,5 +1,7 @@
 import Link from "next/link";
-import React from "react";
+import { RiLinkedinFill, RiGithubFill, RiSpotifyFill } from "react-icons/ri";
+import { BsMedium } from "react-icons/bs";
+import Form from "./Form";
 
 const Contact = () => {
 	return (
@@ -12,11 +14,45 @@ const Contact = () => {
 				<div className="">
 					<Link
 						href="mailto:ifeanyiemmanueljoseph@gmail.com"
-						className="text-[14px] text-[#3547EE] cursor-pointer hover:underline"
+						className="lg:mb-[14px] text-[14px] text-[#3547EE] cursor-pointer hover:underline"
 					>
 						Ifeanyiemmanueljoseph@gmail.com
 					</Link>
-				</div>
+
+					<div className="flex items-center gap-[16px] mt-[14px]">
+						<Link
+							href="https://medium.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<RiLinkedinFill className="cursor-pointer text-2xl lg:text-3xl hover:text-[#3547EE] transition duration-300" />
+						</Link>
+						<Link
+							href="https://medium.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<RiGithubFill className="cursor-pointer text-2xl lg:text-3xl hover:text-[#3547EE] transition duration-300" />
+						</Link>
+						<Link
+							href="https://medium.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<BsMedium className="cursor-pointer text-2xl lg:text-3xl hover:text-[#3547EE] transition duration-300" />
+						</Link>
+						<Link
+							href="https://medium.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<RiSpotifyFill className="cursor-pointer text-2xl lg:text-3xl hover:text-[#3547EE] transition duration-300" />
+						</Link>
+					</div>
+                </div>
+                <div className="w-full">
+                    <Form />
+                </div>
 			</div>
 		</div>
 	);
