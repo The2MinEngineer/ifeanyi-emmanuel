@@ -22,6 +22,10 @@ const page = () => {
 			/>
 
 			<Contact />
+
+			<div className="mx-auto mt-10 lg:mt-20 mb-5 flex items-center justify-center">
+				<p className="text-black text-[14px] opacity-40"> &#169;Ifeanyi-emmanuel</p>
+			</div>
 		</div>
 	);
 };

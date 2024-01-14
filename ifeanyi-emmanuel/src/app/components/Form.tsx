@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Form = () => {
 	return (
@@ -44,6 +45,12 @@ const Form = () => {
 					className="resize-none w-full h-[130px] focus:outline-none focus:shadow-outline appearance-none border bg-[#D9D9D9] text-[14px] text-[#575757] px-3 py-2"
 				></textarea>
 			</div>
+
+			<Button
+                label="Send"
+                href="/"
+				className="mt-5 lg:mt-6 text-[18px] lg:text-[20px] bg-[#3547EE] text-white px-6 py-2 items-center"
+			/>
 		</form>
 	);
 };

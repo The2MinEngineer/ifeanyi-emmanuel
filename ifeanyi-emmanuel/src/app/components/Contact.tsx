@@ -10,7 +10,7 @@ const Contact = () => {
 				Contact Me
 			</h1>
 
-			<div className="flex flex-col lg:flex-row gap-7">
+			<div className="flex flex-col lg:flex-row gap-10">
 				<div className="">
 					<Link
 						href="mailto:ifeanyiemmanueljoseph@gmail.com"
@@ -49,10 +49,10 @@ const Contact = () => {
 							<RiSpotifyFill className="cursor-pointer text-2xl lg:text-3xl hover:text-[#3547EE] transition duration-300" />
 						</Link>
 					</div>
-                </div>
-                <div className="w-full">
-                    <Form />
-                </div>
+				</div>
+				<div className="w-full">
+					<Form />
+				</div>
 			</div>
 		</div>
 	);
