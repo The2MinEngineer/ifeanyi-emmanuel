@@ -3,44 +3,55 @@ import Button from "./Button";
 
 const Project = ({
 	imageSrc,
+	width,
+	height,
+	imageClassName,
 	title,
-	primaryLink,
-	secondaryLink,
-	primaryLabel,
-	secondaryLabel,
-	primaryClassName,
-	secondaryClassName,
+	titleClassName,
+	label1,
+	label2,
+	buttonClassName1,
+	buttonClassName2,
+	link1,
+	link2,
 }: {
-	imageSrc: string;
+	imageSrc: any;
+	width: any; // Change to number
+	height?: number; // Change to number
+	imageClassName: string;
 	title: string;
-	primaryLink: string;
-	secondaryLink: string;
-	primaryClassName: string;
-	secondaryClassName: string;
-	primaryLabel: string;
-	secondaryLabel: string;
+	titleClassName: string;
+	label1: string;
+	label2: string;
+	buttonClassName1: string;
+	buttonClassName2: string;
+	link1: string;
+	link2: string;
 }) => {
 	return (
-		<div className="flex flex-col justify-start">
-			<div className="mb-4">
-				<img
-					className="object-cover object-top  w-full h-full transition-all duration-300 group-hover:scale-125"
+		<div>
+			<div>
+				<Image
 					src={imageSrc}
-					alt={title}
+					alt="Image Alt Text" // Add the alt attribute
+					width={width}
+					height={height}
+					className={imageClassName}
+					layout="responsive"
 				/>
 			</div>
-			<div className="">
-				<h2 className="text-lg font-bold mb-2">{title}</h2>
-				<div className="flex gap-4 justify-between">
+			<div>
+				<h2 className={titleClassName}>{title}</h2>
+				<div className="flex justify-between items-center">
 					<Button
-						label={primaryLabel}
-						link={primaryLink}
-						className={primaryClassName}
+						label={label1}
+						className={buttonClassName1}
+						href={link1}
 					/>
 					<Button
-						label={secondaryLabel}
-						link={secondaryLink}
-						className={secondaryClassName}
+						label={label2}
+						className={buttonClassName2}
+						href={link2}
 					/>
 				</div>
 			</div>

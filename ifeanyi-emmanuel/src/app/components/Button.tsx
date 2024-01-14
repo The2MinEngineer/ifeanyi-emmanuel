@@ -1,17 +1,18 @@
 import Link from "next/link";
+import React from "react";
 
 const Button = ({
 	label,
 	className,
-	link,
+	href,
 }: {
 	label: string;
-	className?: string;
-	link: string;
+	className: string;
+	href: string;
 }) => {
 	return (
 		<Link
-			href={link}
+			href={href}
 			className={className}
 		>
 			{label}
