@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 const page = () => {
 	return (
 		<div className="px-5 md:px-20 lg:px-40 max-w-screen-2xl">
+			{/* TODO: NAVBAR */}
 			<Header />
 
 			<div className="mt-10 lg:mt-20">
@@ -23,7 +24,7 @@ const page = () => {
 			<div className="mx-auto mt-10 lg:mt-20 mb-5 flex items-center justify-center">
 				<p className="text-black text-[14px] opacity-40">
 					{" "}
-					&#169;Ifeanyi-emmanuel
+					&#169;Copyright-Ifeanyi-Emmanuel-2024 (the2MinEngineer)
 				</p>
 			</div>
 		</div>

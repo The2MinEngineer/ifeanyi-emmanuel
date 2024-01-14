@@ -1,18 +1,24 @@
 import Link from "next/link";
-import React from "react";
+import React, { ReactNode } from "react";
 
-const Button = ({
+interface ButtonProps {
+	label: string;
+	className: string;
+	href: string;
+	download?: string;
+	target?: string;
+	icon?: ReactNode;
+	onClick?: () => void;
+}
+
+const Button: React.FC<ButtonProps> = ({
 	label,
 	className,
 	href,
 	download,
 	target,
-}: {
-	label: string;
-	className: string;
-	href: string;
-		download?: string;
-		target?: string;
+	icon,
+	onClick,
 }) => {
 	return (
 		<Link
@@ -20,8 +26,10 @@ const Button = ({
 			className={className}
 			download={download}
 			target={target}
+			onClick={onClick}
 		>
 			{label}
+			{icon && icon}
 		</Link>
 	);
 };
