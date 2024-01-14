@@ -16,15 +16,15 @@ const page = () => {
 				<ProjectContainer />
 			</div>
 
-			<About
-				text1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod turpis nec mi vehicula, nec ullamcorper sapien imperdiet. Nulla facilisi. Ut vel justo vitae elit congue fermentum. Vestibulum non odio a lectus commodo laoreet. Suspendisse vel quam vel risus sagittis tincidunt. Phasellus bibendum justo eget erat accumsan, vel volutpat mauris tristique. Quisque vel odio at turpis accumsan vulputate. Integer volutpat tellus nec justo tincidunt, eget venenatis tortor condimentum."
-				text2="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod turpis nec mi vehicula, nec ullamcorper sapien imperdiet. Nulla facilisi. Ut vel justo vitae elit congue fermentum. Vestibulum non odio a lectus commodo laoreet. Suspendisse vel quam vel risus sagittis tincidunt. Phasellus bibendum justo eget erat accumsan, vel volutpat mauris tristique. Quisque vel odio at turpis accumsan vulputate. Integer volutpat tellus nec justo tincidunt, eget venenatis tortor condimentum."
-			/>
+			<About text1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod turpis nec mi vehicula, nec ullamcorper sapien imperdiet. Nulla facilisi. Ut vel justo vitae elit congue fermentum. Vestibulum non odio a lectus commodo laoreet. Suspendisse vel quam vel risus sagittis tincidunt. Phasellus bibendum justo eget erat accumsan, vel volutpat mauris tristique. Quisque vel odio at turpis accumsan vulputate. Integer volutpat tellus nec justo tincidunt, eget venenatis tortor condimentum." />
 
 			<Contact />
 
 			<div className="mx-auto mt-10 lg:mt-20 mb-5 flex items-center justify-center">
-				<p className="text-black text-[14px] opacity-40"> &#169;Ifeanyi-emmanuel</p>
+				<p className="text-black text-[14px] opacity-40">
+					{" "}
+					&#169;Ifeanyi-emmanuel
+				</p>
 			</div>
 		</div>
 	);
