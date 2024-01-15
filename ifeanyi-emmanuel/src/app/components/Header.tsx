@@ -6,9 +6,15 @@ const Header = () => {
 	return (
 		<div className="mt-10 lg:mt-20 flex flex-col items-center">
 			<h1 className="text-[#000] text-center text-[24px] lg:text-[48px] font-bold w-full md:max-w-[790px] leading-tight">
-				Hi, I’m Ifeanyi Emmanuel - a software engineer with almost{" "}
-				<span className="text-[#3547EE]">3 years</span> of experience
+				Building Tomorrow's Digital Dreams:{" "}
+				<span className="text-[#3547EE]">Ifeanyi Emmanuel,</span> Fullstack
+				Developer
 			</h1>
+			<p className="mt-4 lg:mt-5 text-[14px] lg:text-[18px] text-[#000] opacity-70 w-full md:max-w-[790px] text-center">
+				With over 2 years of experience, specializing in JavaScript, TypeScript,
+				React, Next.js, and more. I transform ideas into digital wonders,
+				constantly expanding my tech toolkit.
+			</p>
 			<Button
 				label="Resume"
 				download="Ifeanyi-Emmanuel-Resume.pdf"
