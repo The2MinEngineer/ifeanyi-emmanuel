@@ -87,7 +87,15 @@ const Navbar = () => {
 			<div className="lg:hidden block relative">
 				<div className="flex justify-between items-center py-5">
 					<div className="text-[#3547EE] text-[20px] font-semibold">
-						<p>the2MinEngineer</p>
+						<ScrollLink
+							to="home"
+							offset={-200}
+							spy={true}
+							smooth={true}
+							duration={500}
+						>
+							the2MinEngineer
+						</ScrollLink>
 					</div>
 
 					{isMenuOpen ? (
