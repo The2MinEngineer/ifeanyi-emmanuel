@@ -5,7 +5,7 @@ import Form from "./Form";
 
 const Contact = () => {
 	return (
-		<div>
+		<div id="contact">
 			<h1 className="text-[20px] lg:text-[28px] mb-5 lg:mb-6 text-[#000] font-semibold">
 				Contact Me
 			</h1>

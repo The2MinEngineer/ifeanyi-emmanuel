@@ -3,7 +3,10 @@ import { FiDownloadCloud } from "react-icons/fi";
 
 const About = () => {
 	return (
-		<div className="my-10 lg:my-20 px-7 lg:px-14 py-12 bg-[#F2F4FF]">
+		<div
+			className="my-10 lg:my-20 px-7 lg:px-14 py-12 bg-[#F2F4FF]"
+			id="about"
+		>
 			<div className="mb-7">
 				<h2 className="text-[20px] lg:text-[28px] mb-3 lg:mb-4 text-[#000] font-semibold">
 					About Me

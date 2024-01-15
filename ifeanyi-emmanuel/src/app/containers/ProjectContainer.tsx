@@ -7,7 +7,7 @@ import Fintech from "../../../public/Fintech.jpeg";
 
 const ProjectContainer = () => {
 	return (
-		<div className="mt-10 lg:mt-20">
+		<div className="mt-10 lg:mt-20" id="projects">
 			<h2 className="text-[20px] lg:text-[28px] mb-5 lg:mb-6 text-[#000] font-semibold">
 				Projects
 			</h2>
