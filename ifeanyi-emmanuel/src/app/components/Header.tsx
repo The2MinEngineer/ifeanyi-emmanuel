@@ -4,7 +4,10 @@ import { FiDownloadCloud } from "react-icons/fi";
 
 const Header = () => {
 	return (
-		<div className="mt-10 lg:mt-20 flex flex-col items-center">
+		<div
+			className="mt-10 lg:mt-20 flex flex-col items-center"
+			id="home"
+		>
 			<h1 className="text-[#000] text-center text-[24px] lg:text-[48px] font-bold w-full md:max-w-[790px] leading-tight">
 				Building Tomorrow&apos;s Digital Dreams:{" "}
 				<span className="text-[#3547EE]">Ifeanyi Emmanuel,</span> Fullstack

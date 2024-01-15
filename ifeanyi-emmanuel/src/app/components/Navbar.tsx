@@ -21,8 +21,16 @@ const Navbar = () => {
 		<div className="sticky top-0 bg-white z-40">
 			{/* Desktop */}
 			<div className="hidden lg:flex justify-between items-center py-10">
-				<div className="text-[#3547EE] text-[24px] font-semibold">
-					<p>the2MinEngineer</p>
+				<div className="text-[#3547EE] text-[24px] font-semibold cursor-pointer">
+					<ScrollLink
+						to="home"
+						offset={-200}
+						spy={true}
+						smooth={true}
+						duration={500}
+					>
+						the2MinEngineer
+					</ScrollLink>
 				</div>
 				<div className="flex items-center gap-6">
 					<div className="flex justify-end items-center gap-6">
