@@ -13,7 +13,7 @@ const About = () => {
 				</h2>
 				<div className="flex flex-col lg:flex-row gap-5 items-start lg:items-end justify-between">
 					<p className="mt-4 lg:mt-5 text-[14px] lg:text-[18px] text-[#000] opacity-70 w-full md:max-w-[790px]">
-						Greetings! I'm Ifeanyi Emmanuel, a passionate software engineer
+						Greetings! I&apos;m Ifeanyi Emmanuel, a passionate software engineer
 						based in Lagos, Nigeria, infusing innovation into frontend
 						development. With over 2 years of experience, my journey in
 						technology is fueled by insatiable curiosity and a deep love for
@@ -67,10 +67,10 @@ const About = () => {
 						Aspirations
 					</h1>
 					<p className="mt-4 lg:mt-5 text-[14px] lg:text-[18px] text-[#000] opacity-70 w-full md:max-w-[790px]">
-						Looking forward, I'm driven to pioneer advancements in technology,
-						focusing on quantum computing. The vision is to build software that
-						tackles today's impossible challenges, revolutionizing finance and
-						healthcare.
+						Looking forward, I&apos;m driven to pioneer advancements in
+						technology, focusing on quantum computing. The vision is to build
+						software that tackles today&apos;s impossible challenges,
+						revolutionizing finance and healthcare.
 					</p>
 				</div>
 			</div>
