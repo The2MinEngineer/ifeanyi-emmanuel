@@ -82,7 +82,7 @@ const Form = () => {
 
 			<button
 				type="submit"
-				className="mt-5 lg:mt-6 text-[18px] lg:text-[20px] bg-[#3547EE] text-white px-6 py-2 items-center rounded-lg"
+				className="text-[18px] md:text-[20px] bg-[#3547EE] text-white px-6 py-2 items-center rounded-lg"
 			>
 				Send
 			</button>

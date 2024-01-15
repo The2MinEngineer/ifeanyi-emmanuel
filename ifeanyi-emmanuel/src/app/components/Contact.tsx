@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { RiLinkedinFill, RiGithubFill, RiSpotifyFill } from "react-icons/ri";
+import { RiLinkedinFill, RiGithubFill } from "react-icons/ri";
+import { MdMail } from "react-icons/md";
 import { BsMedium } from "react-icons/bs";
 import Form from "./Form";
 
@@ -12,14 +13,14 @@ const Contact = () => {
 
 			<div className="flex flex-col lg:flex-row gap-10">
 				<div className="">
-					<Link
-						href="mailto:ifeanyiemmanueljoseph@gmail.com"
-						className="lg:mb-[14px] text-[14px] text-[#3547EE] cursor-pointer hover:underline"
-					>
-						Ifeanyiemmanueljoseph@gmail.com
-					</Link>
-
 					<div className="flex items-center gap-[16px] mt-[14px]">
+						<Link
+							href="mailto:ifeanyiemmanueljoseph@gmail.com"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<MdMail className="cursor-pointer text-2xl lg:text-3xl hover:text-[#3547EE] transition duration-300" />
+						</Link>
 						<Link
 							href="https://www.linkedin.com/in/ifeanyi-emmanuel/"
 							target="_blank"
@@ -40,13 +41,6 @@ const Contact = () => {
 							rel="noopener noreferrer"
 						>
 							<BsMedium className="cursor-pointer text-2xl lg:text-3xl hover:text-[#3547EE] transition duration-300" />
-						</Link>
-						<Link
-							href="https://medium.com/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<RiSpotifyFill className="cursor-pointer text-2xl lg:text-3xl hover:text-[#3547EE] transition duration-300" />
 						</Link>
 					</div>
 				</div>

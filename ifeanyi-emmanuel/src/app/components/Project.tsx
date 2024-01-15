@@ -16,8 +16,8 @@ const Project = ({
 	link2,
 }: {
 	imageSrc: any;
-	width: any; // Change to number
-	height?: number; // Change to number
+	width: any;
+	height?: number;
 	imageClassName: string;
 	title: string;
 	titleClassName: string;
@@ -33,7 +33,7 @@ const Project = ({
 			<div>
 				<Image
 					src={imageSrc}
-					alt="Image Alt Text" // Add the alt attribute
+					alt={title}
 					width={width}
 					height={height}
 					className={imageClassName}
